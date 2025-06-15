@@ -1,5 +1,4 @@
 .
-├── bars.env.example
 ├── bun.lock
 ├── package.json
 ├── README.md
@@ -28,16 +27,16 @@
 │   │   │   │   ├── issueJwt.js
 │   │   │   │   └── jwt.js
 │   │   │   └── submission
-│   │   │       ├── submissionApi.hur
-│   │   │       ├── submissionApi.hurl
-│   │   │       ├── submission.controller.js
-│   │   │       ├── submission.model.js
-│   │   │       ├── submission.route.js
-│   │   │       ├── submission.service.js
-│   │   │       └── submission.validation.js
+│   │   │   ├── submissionApi.hur
+│   │   │   ├── submissionApi.hurl
+│   │   │   ├── submission.controller.js
+│   │   │   ├── submission.model.js
+│   │   │   ├── submission.route.js
+│   │   │   ├── submission.service.js
+│   │   │   └── submission.validation.js
 │   │   └── utils
-│   │       ├── sendResponse.js
-│   │       └── validateRequest.js
+│   │   ├── sendResponse.js
+│   │   └── validateRequest.js
 │   ├── app.js
 │   └── server.js
 ├── structure.md
