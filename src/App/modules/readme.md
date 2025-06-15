@@ -35,11 +35,4 @@
 │   │   │   ├── submission.controller.js
 │   │   │   ├── submission.model.js
 │   │   │   ├── submission.route.js
-│   │   │   ├── submission.service.js
-│   │   │   └── submission.validation.js
-│   │   └── utils
-│   │   ├── sendResponse.js
-│   │   └── validateRequest.js
-│   ├── app.js
-│   └── server.js
-├── structure.md
+── structure.md
