@@ -16,8 +16,9 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5174",
       "https://edu-verse.surge.sh",
-    ], // replace with your frontend URL
-    // credentials: true, // if you're using cookies/auth
+      "https://edu_verse.surge.sh",
+    ],
+    credentials: true,
   }),
 );
 app.use(express.json());
