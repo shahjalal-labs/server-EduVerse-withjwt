@@ -10,7 +10,7 @@ export const createJwtToken = async (req, res) => {
   res.cookie("token", token, {
     httpOnly: true,
     secure: true, // must be true because Vercel uses HTTPS
-    sameSite: "none", // cross-site cookie required for localhost frontend
+    sameSite: "none", // cross-site cookie required for localhost fronten
     partitioned: true,
     maxAge: 24 * 60 * 60 * 1000,
   });
