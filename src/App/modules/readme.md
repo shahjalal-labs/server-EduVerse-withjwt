@@ -43,4 +43,3 @@
 │   ├── app.js
 │   └── server.js
 ├── structure.md
-└── vercel.json
