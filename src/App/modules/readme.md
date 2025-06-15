@@ -44,5 +44,3 @@
 │   └── server.js
 ├── structure.md
 └── vercel.json
-
-10 directories, 36 files
