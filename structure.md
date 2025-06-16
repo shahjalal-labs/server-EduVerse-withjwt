@@ -28,11 +28,11 @@
 │   │   │   │   ├── auth.routes.js
 │   │   │   │   ├── issueJwt.js
 │   │   │   │   ├── jwt.js
-│   │   │   │   ├── root
-│   │   │   │   │   ├── root.controller.js
-│   │   │   │   │   └── root.route.js
 │   │   │   │   └── verifyEmail.js
 │   │   │   ├── readme.md
+│   │   │   ├── root
+│   │   │   │   ├── root.controller.js
+│   │   │   │   └── root.route.js
 │   │   │   └── submission
 │   │   │       ├── submissionApi.hur
 │   │   │       ├── submissionApi.hurl
