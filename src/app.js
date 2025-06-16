@@ -8,7 +8,7 @@ import { AuthRoutes } from "./App/modules/auth/auth.routes.js";
 import dotenv from "dotenv";
 import { SubmissionRoutes } from "./App/modules/submission/submission.route.js";
 import corsOptions from "./App/config/corsOptions.js";
-import { rootRoute } from "./App/modules/auth/root/root.route.js";
+import { rootRoute } from "./App/modules/root/root.route.js";
 dotenv.config();
 
 const app = express();
