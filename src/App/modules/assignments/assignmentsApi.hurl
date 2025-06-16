@@ -1,3 +1,4 @@
+GET  http://localhost:5000/api/v1/assignments
 GET  http://localhost:5000/api/v1/assignments?search=css
 
 
@@ -18,12 +19,15 @@ GET  http://localhost:5000/api/v1/assignments/684abeaf34e52f875cbfebf4
 
 
 
-DELETE http://localhost:5000/api/v1/assignments/delete-assignment/684abeca34e52f875cbfebf8
+
+
+
+DELETE http://localhost:5000/api/v1/assignments/delete-assignment/684f621ef4f4452bae93184c
 Content-Type: application/json
-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlYWNoZXJAZWR1dmVyc2UuY29tIiwiaWF0IjoxNzQ5NzA3NTA3LCJleHAiOjE3NDk3OTM5MDd9.N8kxW_5idPgvLB_6nzkemFrcdN-xRkLNiSPIILKJSqs
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1kc2owNDI1QGdtYWlsLmNvbSIsImlhdCI6MTc1MDA0MTg1NSwiZXhwIjoxNzUwMTI4MjU1fQ.LB7J-8AHnyWaQN_5xOnEe8FJV8fKKuJS6ZAgCMc6zmc
 
 {
-  "email": "banglabd515@gmail.com"
+  "email": "mdsj0425@gmail.com"
 }
 
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
