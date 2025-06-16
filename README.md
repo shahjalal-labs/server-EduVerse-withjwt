@@ -27,7 +27,7 @@ A secure and scalable REST API backend for **EduVerse**, an online collaborative
 - **Framework**: [Express.js](https://expressjs.com/)
 - **Database**: [MongoDB Atlas](https://www.mongodb.com/)
 - **Authentication**: JWT-based, using HttpOnly cookies
-- **Validation**: `zod` (via `validateRequest`)
+- **Validation**: `Joi` (via `validateRequest`)
 - **Error Handling**: Centralized custom middleware
 - **Deployment**: [Vercel](https://vercel.com)
 
