@@ -7,30 +7,19 @@ import { AssignmentRoutes } from "./App/modules/assignments/assignments.route.js
 import { AuthRoutes } from "./App/modules/auth/auth.routes.js";
 import dotenv from "dotenv";
 import { SubmissionRoutes } from "./App/modules/submission/submission.route.js";
+import corsOptions from "./App/config/corsOptions.js";
+import { rootRoute } from "./App/modules/auth/root/root.route.js";
 dotenv.config();
 
 const app = express();
-app.use(
-  cors({
-    origin: [
-      "http://localhost:5173",
-      "http://localhost:5174",
-      "https://edu-verse.surge.sh",
-      "https://edu_verse.surge.sh",
-    ],
-    credentials: true,
-  }),
-);
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(cookieParser());
+app.use("/", rootRoute);
 app.use("/api/v1/auth", AuthRoutes);
 app.use("/api/v1/assignments", AssignmentRoutes);
 app.use("/api/v1/submission", SubmissionRoutes);
-
-app.get("/", (req, res) => {
-  res.send("Assalamu alaikum, Welcome to the EduVers server !");
-});
-
 app.use(globalErrorHandler);
 app.use(notFound);
+
 export default app;
