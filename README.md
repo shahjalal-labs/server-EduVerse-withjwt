@@ -195,7 +195,7 @@ Ensure your `.vercel.json` is properly set up:
 - ✅ Evaluation with marks and feedback
 - 🌐 CORS protected
 - 🧠 Central error handling
-- 🧪 Route validation with Zod
+- 🧪 Route validation with Joi
 - 🧰 Bun for faster development
 
 ---
