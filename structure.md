@@ -6,6 +6,7 @@
 ├── src
 │   ├── App
 │   │   ├── config
+│   │   │   ├── corsOptions.js
 │   │   │   └── db.js
 │   │   ├── middlewires
 │   │   │   ├── globalError.js
@@ -27,6 +28,9 @@
 │   │   │   │   ├── auth.routes.js
 │   │   │   │   ├── issueJwt.js
 │   │   │   │   ├── jwt.js
+│   │   │   │   ├── root
+│   │   │   │   │   ├── root.controller.js
+│   │   │   │   │   └── root.route.js
 │   │   │   │   └── verifyEmail.js
 │   │   │   ├── readme.md
 │   │   │   └── submission
@@ -45,4 +49,4 @@
 ├── structure.md
 └── vercel.json
 
-10 directories, 36 files
+11 directories, 39 files
